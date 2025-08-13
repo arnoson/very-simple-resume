@@ -1,0 +1,21 @@
+{
+  "name": "devtools",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@very-simple/components": "^0.7.0",
+    "bumpp": "^10.2.3",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@medv/finder": "^4.0.2"
+  }
+}
